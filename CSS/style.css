@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #BADB73;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main{
+height: 92vh;
+}
+a{
+    color: #BADB73;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+   transform: scale(1.1);
+}
+
+.lista-menu li a:hover{
+    border-bottom: solid 2px #BADB73;
+    padding-bottom: 3px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #BADB73;
+    background: #373737;
+    height: 8vh;
+    width: 100vw;
+    font-weight: bold;
+    z-index: 20;
+}
+
+
+.lista-menu{
+    list-style: none;
+    display: flex;
+}
+
+.lista-menu li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.banner{
+    width: 100vw;
+    padding-top: 70px;
+    flex-direction: column;
+    height: 490px;
+ }
+
+
+.slider{
+    display: block;
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    padding-top: 80px;
+    position: relative;
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input{
+    display: none;
+}
+
+.slider label{
+    border: 2px solid #fff;
+    padding: 7px;
+    border-radius: 10px;
+    bottom: -10px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.slider label:hover{
+    background-color: #fff;
+}
+.slider li:nth-child(1) label{
+    left: 550px;
+}
+
+.slider li:nth-child(2) label{
+    left: 585px;
+}
+
+.slider li:nth-child(3) label{
+    left: 620px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.ebooks{
+    background-color: #373737;
+    width: 100vw;
+    height: 926px;
+}
+
+.ebooks h1{
+    color: #BADB73;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.ebooks p{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.cards{
+    display: flex;
+    width: 100vw;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+
+#card1{
+    background-color: #BADB73;
+    height: 306px;
+    width: 198px;
+    border-radius: 15px;
+    align-self: center;
+}
+
+#card2{
+    background-color: #BADB73;
+    height: 306px;
+    width: 198px;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+#card3{
+    background-color: #BADB73;
+    height: 306px;
+    width: 198px;
+    border-radius: 15px;
+    align-self: flex-end;
+}
