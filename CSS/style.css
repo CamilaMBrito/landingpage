@@ -155,10 +155,57 @@ nav{
 
 .cards{
     display: flex;
-    width: 100vw;
-    margin-top: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+}
 
+.cards img{
+    border-radius: 5px;
+    padding-top: 10px;
+
+}
+
+section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #BADB73;
+    border-radius: 15px;
+    width: 180px;
+    height: 310px;
+    padding: 1rem 1.5rem;
+    max-height: 316px;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card span{
+    padding-top: 15px;
+}
+
+.card button{
+    margin-top: 30px;
+    background-color: transparent;
+    border: solid 2px #373737;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.card button:hover{
+    background-color: #373737;
+    color: #BADB73;
+    transition: 0.5s;
 }
 
 #card1{
@@ -167,20 +214,4 @@ nav{
     width: 198px;
     border-radius: 15px;
     align-self: center;
-}
-
-#card2{
-    background-color: #BADB73;
-    height: 306px;
-    width: 198px;
-    border-radius: 15px;
-    align-self: flex-start;
-}
-
-#card3{
-    background-color: #BADB73;
-    height: 306px;
-    width: 198px;
-    border-radius: 15px;
-    align-self: flex-end;
 }
