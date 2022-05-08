@@ -49,34 +49,34 @@
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/51YjgsupHLS.jpg" width="170px">
                     <span>O Conto da Aia <br> Margaret Atwood <br><br>Preço do ebook: R$ 5,00</span>
-                    <button>Comprar Ebook</button>
+                    <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71fdFbs8DcL.jpg" width="170px">
                     <span>Sol da Meia-Noite <br> Stephenie Meyer <br><br>Preço do ebook: R$ 8,00 </span>
-                    <button>Comprar Ebook</button>
+                    <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/619aw8BhHCL.jpg" width="170px">
                     <span>O Ladrão de Raios <br> Rick Riordan <br><br>Preço do ebook: R$ 6,50 </span>
-                    <button>Comprar Ebook</button>
+                    <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
             </section>
             <section class="cards2">
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/81u7fYWB4+L.jpg" width="170px">
                         <span>King of Scars <br> Leigh Bardugo <br><br>Preço do ebook: R$ 7,90 </span>
-                    <button>Comprar Ebook</button>
+                    <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/510BMb5OmsL.jpg" width="170px">
                         <span>Amor & Azeitonas <br> Jenna Evans Welch <br><br>Preço do ebook: R$ 4,30 </span>
-                    <button>Comprar Ebook</button>
+                        <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71clOcdYiHS.jpg" width="170px">
                         <span>Sobre Amor e Estrelas <br> Leo Oliveira <br><br>Preço do ebook: R$ 2,00</span>
-                    <button>Comprar Ebook</button>
+                    <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
             </section>
         </section>
@@ -106,11 +106,61 @@
         </section>
         <section class="contato">
             <a name="contato"></a>
+            <h2>contato</h2>
+            <p>Entre em contato com a nossa empresa através do formulário abaixo:</p>
+            <section class="formulario">
+                <form>
+                        <section class="inputBox">
+                            <label for="nome">Nome Completo<strong>*</strong></label>
+                            <br>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" class="inputUser" required>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <label for="email">E-mail<strong>*</strong></label>
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" class="inputUser" required>
+                            
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <label for="telefone">Telefone<strong>*</strong></label>
+                            <label for="celular" id="lcelular">Celular<strong>*</strong></label>
+                            <br>
+                            <input type="tel" name="telefone" id="telefone" placeholder="(DD) XXXX-XXXX" class="inputUser" required>
+                            <input type="tel" name="celular" id="celular" placeholder="(DD) XXXXX-XXXX" class="inputUser" required>
+                        </section>
+                        <br><br>
+                            <label>Digite a sua mensagem<strong>*</strong></label>
+                            <br>
+                            <textarea name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem..." cols="30" rows="10"></textarea>
+                        <br><br>  
+                        <section class="button"> 
+                            <input type="submit" name="submit" id="submit">
+                        </section>    
+                </form>
+            </section>
         </section>
-    </main>
-    <footer class="rodape">
-    
-    </footer>
+        <section class="rodape">
+            <section class="logo2">
+                <img src="./IMG/logo2.png">
+            </section>
+            <section class="rede">
+                <p>Nossas redes sociais:</p>
+                <a href="https://twitter.com" target="_blank"><img src="./IMG/rede1.png"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="./IMG/rede2.png"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="./IMG/rede3.png"></a>
+            </section>
+            <section class="endereco">
+                <p>
+                    Nossa localização:<br><br>
+                    Rua do Padro, 906 - 15° Andar<br>
+                    Jardim das Flores<br>
+                    São Paulo
+                </p>
+            </section>
+        </section>
+    </main>   
 <script src="./JS/script.js"></script>    
 </body>
 </html>

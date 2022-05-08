@@ -8,11 +8,12 @@
 body{
     background-color: #BADB73;
     height: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 main{
-height: 92vh;
+height: 75vh;
 }
 a{
     color: #BADB73;
@@ -134,7 +135,7 @@ nav{
 .ebooks{
     background-color: #373737;
     width: 100vw;
-    height: 1000px;
+    height: 1050px;
 }
 
 .ebooks h1{
@@ -272,4 +273,143 @@ section.card{
     justify-content: center;
     margin-right: -450px;
     margin-top: -105px;
+}
+
+.contato{
+    background-color: #373737;
+    font-family: 'Inter', sans-serif;
+    height: 850px;
+    width: 100vw;
+}
+
+.contato h2{
+    color: #BADB73;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contato p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    font-size: 14px;
+}
+
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox input{
+    border: solid 2px #BADB73;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+}
+
+label{
+    color: #BADB73;
+}
+
+label strong{
+    color: #F50C0C;
+}
+
+.button input{
+    border-radius: 15px;
+    border: none; 
+    width: 505px;
+    height: 47px;
+    border: solid 2px #BADB73;
+    background-color: #373737;
+    color: #BADB73;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background-color: #BADB73;
+    color: #373737;
+    transition: 0,5s;
+}
+
+#nome{
+    margin-top: 10px;
+    width: 488px;
+    height: 36px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#email{
+    margin-top: 10px;
+    width: 488px;
+    height: 36px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#telefone{
+    margin-top: 10px;
+    width: 235px;
+    height: 36px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#celular{
+    margin-top: 10px;
+    width: 235px;
+    height: 36px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#lcelular{
+    margin-left: 175px;
+}
+
+textarea{
+    margin-top: 10px;
+    border: solid 2px #BADB73;
+    border-radius: 15px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 488px;
+    height: 156px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.rodape{
+    margin-top: 50px;
+    background-color: #BADB73;
+    color: #373737;
+    width: 100vw;
+    height: 150px;
+    display: inline-flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #373737;
+    justify-content: space-between;
+}
+
+.logo2{
+    margin-left: 50px;
+}
+
+.rede img{
+    margin-top: 25px;
+    display: inline-flex;
+}
+
+.endereco{
+    text-align: right;
+    margin-right: 70px;
 }
