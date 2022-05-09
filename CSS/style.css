@@ -1,10 +1,13 @@
+/* Importação de fonte do google */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
+/* Resetando as configurações padrões da página */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* Definindo a cor e tamanho do body */
 body{
     background-color: #BADB73;
     height: 100%;
@@ -12,24 +15,30 @@ body{
     overflow-x: hidden;
 }
 
+/* Definindo o tamanho do main */
 main{
 height: 75vh;
 }
+
+/* Definindo a cor e estilização dos links da página */
 a{
     color: #BADB73;
     text-decoration: none;
     transition: 0.3s;
 }
 
+/* Definindo efeito de aumentar ao passar o mouse em cima de um link */
 a:hover{
    transform: scale(1.1);
 }
 
+/* Definindo uma linha embaixo do menu ao passar com o mouse */
 .lista-menu li a:hover{
     border-bottom: solid 2px #BADB73;
     padding-bottom: 3px;
 }
 
+/* Estilizando o menu */
 nav{
     position: fixed;
     top: 0;
@@ -48,17 +57,19 @@ nav{
     z-index: 20;
 }
 
-
+/* Estilizando o menu */
 .lista-menu{
     list-style: none;
     display: flex;
 }
 
+/* Estilizando o menu */
 .lista-menu li{
     letter-spacing: 3px;
     margin-left: 32px;
 }
 
+/* Definindo tamanho e direção do banner */
 .banner{
     width: 100vw;
     padding-top: 70px;
@@ -66,7 +77,7 @@ nav{
     max-height: 490px;
  }
 
-
+/* Definindo tamanho, margem e posição do slide */
 .slider{
     display: block;
     height: 400px;
@@ -76,6 +87,7 @@ nav{
     position: relative;
 }
 
+/* Definindo tamanho, margem e posição do slide */
 .slider li{
     list-style: none;
     position: absolute;
@@ -83,6 +95,7 @@ nav{
     margin-right: auto;
 }
 
+/* Definindo tamanho, margem e posição da imagem do slide */
 .slider img{
     margin: auto;
     height: 100%;
@@ -90,10 +103,12 @@ nav{
     vertical-align: top;
 }
 
+/* Definindo posição dos botões */
 .slider input{
     display: none;
 }
 
+/* Definindo tamanho, margem e posição dos botões do slide */
 .slider label{
     border: 2px solid #fff;
     padding: 7px;
@@ -106,38 +121,47 @@ nav{
     transition: 0.5s;
 }
 
+/* Definindo cor de fundo do botão do slide ao passar o mouse por cima */
 .slider label:hover{
     background-color: #fff;
 }
+
+/* Definindo a posição do botão 1 do slide */
 .slider li:nth-child(1) label{
     left: 550px;
 }
 
+/* Definindo a posição do botão 2 do slide */
 .slider li:nth-child(2) label{
     left: 585px;
 }
 
+/* Definindo a posição do botão 3 do slide */
 .slider li:nth-child(3) label{
     left: 620px;
 }
 
+/* Definindo a opacidade e visualização da imagem do slide */
 .slider img {
     opacity: 0;
     visibility: hidden;
 }
 
+/* Definindo a opacidade e visualização da imagem do slide ao clicar no botão */
 .slider li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
+/* Definindo a cor de fundo e tamanho da sessão de ebooks */
 .ebooks{
     background-color: #373737;
     width: 100vw;
     height: 1050px;
 }
 
+/* Definindo fonte, cor e posição do título da sessão ebooks */
 .ebooks h1{
     color: #BADB73;
     text-transform: uppercase;
@@ -147,6 +171,7 @@ nav{
     text-align: center;
 }
 
+/* Definindo fonte, cor e posição do texto da sessão ebooks */
 .ebooks p{
     color: #fff;
     text-align: center;
@@ -155,6 +180,7 @@ nav{
     font-size: 14px;
 }
 
+/* Definindo posição dos cards da classe Cards1 */
 .cards1{
     display: flex;
     justify-content: center;
@@ -165,6 +191,7 @@ nav{
     z-index: 5;
 }
 
+/* Definindo posição dos cards da classe Cards2 */
 .cards2{
     clear: both;
     padding-top: 500px;
@@ -175,12 +202,14 @@ nav{
     width: 100%;
 }
 
+/* Definindo a curvatura e posição da imagem dos cards */
 .cards img{
     border-radius: 5px;
     padding-top: 10px;
 
 }
 
+/* Definindo cor de fundo, tamanho e posição dos cards */
 section.card{
     display: flex;
     flex-direction: column;
@@ -198,18 +227,22 @@ section.card{
     font-size: 12px;
 }
 
+/* Removendo margem esquerda do primeiro card */
 .cards1.card:first-child{
     margin-left: 0;
 }
 
+/* Removendo margem esquerda do primeiro card */
 .cards2.card:first-child{
     margin-left: 0;
 }
 
+/* Definindo margem interna do texto do card */
 .card span{
     padding-top: 15px;
 }
 
+/* Definindo cor da borda, tamanho e posição dos botões do card */
 .card button{
     margin-top: 20px;
     background-color: transparent;
@@ -223,23 +256,28 @@ section.card{
     cursor: pointer;
 }
 
+/* Definindo cor do botão do card ao passar o mouse */
 .card button:hover{
     background-color: #373737;
     color: #BADB73;
     transition: 0.5s;
 }
 
+/* Definindo altura e cor de fundo da sessão quem somos */
 .team{
     background-color: #BADB73;
     height: 700px;
 }
 
+/* Definindo o alinhamento e posição dos elementos da sessão quem somos */
 .texto{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+/* Definindo margem interna, fonte, tamanho e cor do título da sessão quem somos */
 .texto h2{
     color: #373737;
     text-transform: uppercase;
@@ -249,6 +287,7 @@ section.card{
     text-align: center;
 }
 
+/* Definindo margem interna, fonte, tamanho e cor do texto da sessão quem somos */
 .texto span{
     padding-top: 30px;
     font-family: 'Inter', sans-serif;
@@ -256,10 +295,12 @@ section.card{
     font-size: 14px;
 }
 
+/* Definindo a margem interna da lista não ordenada da sessão quem somos */
 .texto ul{
     padding-top: 25px;
 }
 
+/* Definindo a margem, estilo e cor da lista não ordenada da sessão quem somos */
 .valores li{
     margin-left: -210px;
     list-style-type: circle;
@@ -268,6 +309,7 @@ section.card{
     font-size: 14px;
 }
 
+/* Definindo a margem e posição da imagem da sessão quem somos */
 .image{
     display: flex;
     justify-content: center;
@@ -275,6 +317,7 @@ section.card{
     margin-top: -105px;
 }
 
+/* Definindo a cor do fundo, fonte e tamanho da sessão de contato */
 .contato{
     background-color: #373737;
     font-family: 'Inter', sans-serif;
@@ -282,6 +325,7 @@ section.card{
     width: 100vw;
 }
 
+/* Definindo a cor do texto, margem e posição do título do contato */
 .contato h2{
     color: #BADB73;
     text-transform: uppercase;
@@ -290,6 +334,7 @@ section.card{
     padding-top: 50px;
 }
 
+/* Definindo a cor do texto, margem e posição do paragrafo do contato */
 .contato p{
     color: #fff;
     display: flex;
@@ -298,12 +343,14 @@ section.card{
     font-size: 14px;
 }
 
+/* Definindo a margem e posição dos elementos do formulário */
 .formulario{
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
+/* Definindo a borda e cor de fundo dos campos */
 .inputBox input{
     border: solid 2px #BADB73;
     border-radius: 15px;
@@ -311,14 +358,17 @@ section.card{
     font-family: 'Inter', sans-serif;
 }
 
+/* Definindo a cor do texto do label */
 label{
     color: #BADB73;
 }
 
+/* Definindo a cor do elemento em negrito do label */
 label strong{
     color: #F50C0C;
 }
 
+/* Definindo cor do texto, fundo do botão, margem e posição do botão enviar formulário*/
 .button input{
     border-radius: 15px;
     border: none; 
@@ -332,12 +382,14 @@ label strong{
     cursor: pointer;
 }
 
+/* Definindo cor do texto e fundo do botão enviar formulário ao passar o mouse */
 .button input:hover{
     background-color: #BADB73;
     color: #373737;
     transition: 0,5s;
 }
 
+/* Definindo cor do texto, posição e tamanho do campo nome */
 #nome{
     margin-top: 10px;
     width: 488px;
@@ -346,6 +398,7 @@ label strong{
     color: #fff;
 }
 
+/* Definindo cor do texto, posição e tamanho do campo email */
 #email{
     margin-top: 10px;
     width: 488px;
@@ -354,6 +407,7 @@ label strong{
     color: #fff;
 }
 
+/* Definindo cor do texto, posição e tamanho do campo telefone */
 #telefone{
     margin-top: 10px;
     width: 235px;
@@ -362,6 +416,7 @@ label strong{
     color: #fff;
 }
 
+/* Definindo cor do texto, posição e tamanho do campo celular */
 #celular{
     margin-top: 10px;
     width: 235px;
@@ -370,10 +425,12 @@ label strong{
     color: #fff;
 }
 
+/* Definindo margem da label do celular */
 #lcelular{
     margin-left: 175px;
 }
 
+/* Definindo cor de fundo, posição e tamanho da area de texto/mensagem */
 textarea{
     margin-top: 10px;
     border: solid 2px #BADB73;
@@ -387,6 +444,7 @@ textarea{
     color: #fff;
 }
 
+/* Definindo cor de fundo, posição e tamanho do rodapé */
 .rodape{
     margin-top: 50px;
     background-color: #BADB73;
@@ -400,15 +458,18 @@ textarea{
     justify-content: space-between;
 }
 
+/* Definindo margem do logo do rodapé */
 .logo2{
     margin-left: 50px;
 }
 
+/* Definindo margem dos icones da rede social */
 .rede img{
     margin-top: 25px;
     display: inline-flex;
 }
 
+/* Definindo alinhamento e margem do texto do endereço */
 .endereco{
     text-align: right;
     margin-right: 70px;

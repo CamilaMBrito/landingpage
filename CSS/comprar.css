@@ -1,20 +1,25 @@
+/* Importação de fonte do google */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
+/* Resetando as configurações padrões da página */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* Definindo a cor e tamanho do body */
 body{
     background-color: #373737;
     font-family: 'Inter', sans-serif;
     color: #BADB73;
 }
 
+/* Definindo a margem da sessão central */
 .central{
     margin-top: 50px;
 }
 
+/* Definindo o alinhamento e posição do título da página */
 .titulo h1{
     display: flex;
     justify-content: center;
@@ -22,20 +27,25 @@ body{
     font-size: 35px;
 }
 
+/* Definindo a posição da imagem da página */
 .image{
     display: flex;
     justify-content: center;
 }
+
+/* Definindo a margem da imagem da página */
 .image img{
     margin-top: 100px;
 }
 
+/* Definindo a margem e posição do botão da página */
 .btn{
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
+/* Definindo o tamanho, cor e fonte do botão da página */
 .btn button{
     border: solid 2px #BADB73;
     background-color: transparent;
@@ -48,6 +58,7 @@ body{
     cursor: pointer;
 }
 
+/* Definindo a cor de fundo e de texto do botão da página ao passar o mouse */
 .btn button:hover{
     background-color: #BADB73;
     color: #373737;

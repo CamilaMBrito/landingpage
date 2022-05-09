@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paper Preserv</title>
+    <!--Abaixo a conexão do CSS com HTML-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav> 
+            <!--Logo com link para recarregar a página-->
             <a class="logo" href="index.html"> <img src="./IMG/LOGO.png" width="70px"> </a>
             <ul class="lista-menu">
+                <!--Menu de sessões da página-->
                 <li><a href="#inicio">Ínicio</a></li>
                 <li><a href="#ebooks">Ebooks</a></li>
                 <li><a href="#team">Quem Somos?</a></li>
@@ -24,16 +27,19 @@
             <a name="inicio"></a>
             <ul class="slider">
                 <li>
+                    <!--Botões e imagem para o slider-->
                     <input type="radio" id="slide1" name="slide" checked>
                     <label for="slide1"></label>
                     <img src="./IMG/slide1.png">
                 </li>
                 <li>
+                    <!--Botões e imagem para o slider-->
                     <input type="radio" id="slide2" name="slide" checked>
                     <label for="slide2"></label>
                     <img src="./IMG/slide2.png">
                 </li>
                 <li>
+                    <!--Botões e imagem para o slider-->
                     <input type="radio" id="slide3" name="slide" checked>
                     <label for="slide3"></label>
                     <img src="./IMG/slide3.png">
@@ -47,33 +53,40 @@
             
             <section class="cards1">
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/51YjgsupHLS.jpg" width="170px">
                     <span>O Conto da Aia <br> Margaret Atwood <br><br>Preço do ebook: R$ 5,00</span>
                     <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71fdFbs8DcL.jpg" width="170px">
                     <span>Sol da Meia-Noite <br> Stephenie Meyer <br><br>Preço do ebook: R$ 8,00 </span>
                     <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/619aw8BhHCL.jpg" width="170px">
                     <span>O Ladrão de Raios <br> Rick Riordan <br><br>Preço do ebook: R$ 6,50 </span>
                     <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
             </section>
+            <!--Dividi os cards em duas sections, para que uma ficasse embaixo da outra-->
             <section class="cards2">
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/81u7fYWB4+L.jpg" width="170px">
                         <span>King of Scars <br> Leigh Bardugo <br><br>Preço do ebook: R$ 7,90 </span>
                     <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/510BMb5OmsL.jpg" width="170px">
                         <span>Amor & Azeitonas <br> Jenna Evans Welch <br><br>Preço do ebook: R$ 4,30 </span>
                         <a href="./comprar.html"><button>Comprar Ebook</button></a>
                 </section>
                 <section class="card">
+                    <!--Imagem, texto e botão do card-->
                     <img src="https://images-na.ssl-images-amazon.com/images/I/71clOcdYiHS.jpg" width="170px">
                         <span>Sobre Amor e Estrelas <br> Leo Oliveira <br><br>Preço do ebook: R$ 2,00</span>
                     <a href="./comprar.html"><button>Comprar Ebook</button></a>
@@ -84,6 +97,7 @@
             <a name="team"></a>
             <section class="texto">
                 <h2>QUEM SOMOS?</h2>
+                <!--Texto para a sessão de quem somos-->
                 <span>
                     Nós somos uma empresa com foco no incentivo e distribuição de <br>
                     conteúdo que façam com que o usuário pondere a compra de livros <br>
@@ -92,6 +106,7 @@
                     <br>
                     Os valores da nossa empresa:
                 </span>
+                    <!--lista não ordenada de valores da empresa-->
                     <ul class="valores">
                         <li>Qualidade de vida;</li>
                         <li>Sustentabilidade;</li>
@@ -100,6 +115,7 @@
                     </ul>
             </section>
             <section class="image">
+                <!--Imagem da sessão de quem somos-->
                 <img src="./IMG/quemsomos.png">
             </section>
 
@@ -110,19 +126,21 @@
             <p>Entre em contato com a nossa empresa através do formulário abaixo:</p>
             <section class="formulario">
                 <form>
+                        <!--Título e campo de nome completo-->
                         <section class="inputBox">
                             <label for="nome">Nome Completo<strong>*</strong></label>
                             <br>
                             <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" class="inputUser" required>
                         </section>
                         <br><br>
+                        <!--Título e campo do email-->
                         <section class="inputBox">
                             <label for="email">E-mail<strong>*</strong></label>
                             <br>
-                            <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" class="inputUser" required>
-                            
+                            <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" class="inputUser" required>   
                         </section>
                         <br><br>
+                        <!--Título e campo do telefone e celular-->
                         <section class="inputBox">
                             <label for="telefone">Telefone<strong>*</strong></label>
                             <label for="celular" id="lcelular">Celular<strong>*</strong></label>
@@ -131,10 +149,12 @@
                             <input type="tel" name="celular" id="celular" placeholder="(DD) XXXXX-XXXX" class="inputUser" required>
                         </section>
                         <br><br>
+                            <!--Título e campo da mensagem-->
                             <label>Digite a sua mensagem<strong>*</strong></label>
                             <br>
                             <textarea name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem..." cols="30" rows="10"></textarea>
                         <br><br>  
+                        <!--Botão de enviar formulário -->
                         <section class="button"> 
                             <input type="submit" name="submit" id="submit">
                         </section>    
@@ -143,14 +163,17 @@
         </section>
         <section class="rodape">
             <section class="logo2">
+                <!--Logo do rodape-->
                 <img src="./IMG/logo2.png">
             </section>
+            <!--Ícones das redes sociais-->
             <section class="rede">
                 <p>Nossas redes sociais:</p>
                 <a href="https://twitter.com" target="_blank"><img src="./IMG/rede1.png"></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="./IMG/rede2.png"></a>
                 <a href="https://www.facebook.com" target="_blank"><img src="./IMG/rede3.png"></a>
             </section>
+            <!--Texto de endereço do site-->
             <section class="endereco">
                 <p>
                     Nossa localização:<br><br>
@@ -160,7 +183,6 @@
                 </p>
             </section>
         </section>
-    </main>   
-<script src="./JS/script.js"></script>    
+    </main>
 </body>
 </html>
